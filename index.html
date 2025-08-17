@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/printer.svg" type="svg">
+    <title>Printer's mania</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+     <!--header-->
+    <section id="header" style="text-align: center;">
+        <a href="#">
+            <img src="./images/printer.svg" type="svg" alt="logo" sizes="20px" height="20px">
+        </a>
+        <div style="text-align: center;">
+            <ul id="navBar">
+                <li><a href="#">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href = "research.html">Research</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href = "cart.html"><img src="./images/cart.svg" type="svg" alt="logo" sizes="20px" height="20px"></a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <!--hero_section-->
+    <section id="hero">
+        <div >
+            <h4>Printer's Mania</h4>
+            <h1>Print Your <b>Success</b> </br> with Our <b>Devices</b></h1>
+            <p><b>COUPANS/REFERAL CODES</b> can get you upto <mark>40% off</mark></p>
+            <button onclick="window.location.href='store.html'"><b>Buy Now</b></button>
+        </div>
+        <!--Brand Section-->
+        <div id="slider">
+            <button onclick="prevImage()"> < </button>
+            <img id="slide" src="./images/canon.png" type="png" alt="">
+            <button onclick="nextImage()"> > </button>
+        </div>
+
+    </section>
+
+
+
+    <!--Featured Section-->
+    <section class="features">
+
+
+    </section>
+
+    <!--Services-->
+    <section class="services">
+        <div class="card">
+            <img src='./images/shipping.svg' type='svg' alt='Free shipping'>
+            <h2>FREE SHIPPING</h2>
+            <p>Receive your order at home, without extra fees.</p>
+        </div>
+
+        <div class="card">
+            <img src='./images/cust_support.svg' type='svg' alt='Customer Support'>
+            <h2>FLAWLESS CUSTOMER SERVICE</h2>
+            <p>24/7 Quality Service</p>
+        </div>
+
+        <div class="card">
+            <img src='./images/repair.svg' type='svg' alt='repair'>
+            <h2>REPAIRMENT</h2>
+            <p>On demand repairment, <b>anytime</b> & <b>anywhere</b></p>
+        </div>
+    </section>
+
+    <!--Newsletter Section-->
+    <section id="newsLetter" style ="padding: 20px 60px;">
+       <div class = "form">
+            <input type = "text" placeholder="Your Email Address">
+            <button>Sign Up</button>
+        </div>
+        <div class = "newsText" style="padding:0px 20px 0px 40px ">
+            <h4>Sign Up for the newsletter</h4>
+            <p>Don't miss out on daily news and weekly <span style = "color :#ff0000">special offers</span></p>
+        </div>
+
+        <div class = "social_icons ">
+            <h6 style="padding: 5px 0;">Follow Us ON</h6>
+            <a href="facebook.com"><img src="./images/facebook.svg" type = "svg"></a>
+            <a href="twitter.com"><img src="./images/twitter.svg" type = "svg"></a>
+            <a href="instagram.com"><img src="./images/instagram.svg" type = "svg"></a>
+            <a href="linkedin.com"><img src="./images/linkedin.svg" type = "svg"></a>
+            <a href="youtube.com"><img src="./images/youtube.svg" type = "svg"></a>
+        </div>
+        
+    </section>
+
+
+    <!--Footer Section-->
+    <footer >
+        <div class="footerSection">
+            <div id="info">
+                <h2>Information</h2>
+                <p><b>Address : </b> Kathmandu, Nepal </br> <b>Contact : </b> 1234567890</p>
+            </div>
+            <div id="resources">
+                <h2>Resources</h2>
+            </div>
+            <div id="main_info">
+                <h2>Main Info</h2>
+            </div>   
+            
+            <div id="policies">
+                <h2>Policies</h2>
+            </div>
+
+            <div id="apps">
+                <h2>Apps</h2>
+            </div>
+        </div>
+        <div id="footerButtom">
+            <p>Copyright &copy; 2024: Designed by <span style="text-decoration: solid;">Andrej Karpathy</span></p>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

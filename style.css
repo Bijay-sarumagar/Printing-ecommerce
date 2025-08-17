@@ -1,0 +1,262 @@
+* {
+    margin: 0; /* Remove default margin for all elements */
+    padding: 0; /* Remove default padding for all elements */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-family: 'Roboto', 'Arial', sans-serif; /* Set a default font family for all elements to Lora or sans-serif */
+}
+
+body {
+    color: #4D4D4D;
+    width: 100%; /* takes entire available width*/
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 20px;
+    color: #000000;
+}
+
+h4 {
+    font-size: 18px;
+    color: #000000;
+}
+
+h6 {
+    font-size: 14px;
+    color: #000000;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+    margin: 15px 0 20px 0;/* Set margins (top: 15px, right: 0, bottom: 20px, left: 0) */
+}
+
+
+/* Styles for the element with the ID 'header' */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#navBar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#navBar li {
+    display: inline-block;
+    margin-right: 30px;
+    transition: transform 0.3s;
+}
+#navBar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 450; /* the thickness or boldness of the characters in a text element */
+    color: #000000; 
+}
+
+#navBar li a:active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#navBar li:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* hero section */
+#hero{
+    background-image: url('./images/pm.jpg');
+    background-size: cover; /* Set the background image to cover the entire element */
+    height: 900px;
+    padding: 100px 50px 80px 899px; /* padding is the space between the content of an element and its border Set padding (top and bottom: 0, left and right: 25px) */
+}
+
+#hero button{
+    background-color: rgb(255, 183, 0); 
+    color: #000000; border: rgb(0, 0, 0);  
+    cursor: pointer;
+}
+#hero h4 {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 20px;
+    color: #000000;
+}
+
+#hero h1 {
+    color: #000000;
+}
+
+#hero h1 b {
+    color: #ffbf00;
+}
+#hero p{
+    text-align: left;
+    color: #000000;
+
+}
+#hero button{
+    text-size-adjust: 40;
+    text-align: left;
+}
+
+
+/* slider */
+#slider {
+    position: relative;
+    width: 500px;
+}
+
+#slider button {
+    margin: 150px auto;
+}
+
+#slider img {
+    width: 20%;
+    padding: 150px;
+}
+
+#slider button {
+
+    top: 50%;
+}
+
+#slider button:nth-child(1) {
+    left: -30px;
+}
+
+#slider button:nth-child(3) {
+    right: -30px;
+}
+
+
+
+
+
+
+/*Services*/
+.services {
+    padding: 20px 60px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+}
+.card img {
+    width: 50px;
+    height: 50px;
+}
+.card h2 {
+    size: 10px;
+    margin: 10px 15px;
+}
+
+
+
+/*newsLetter*/
+#newsLetter{
+    display: flex;
+    align-items: center;
+    background-color: #F2CDB3;
+    justify-content: space-between;
+}
+
+#newsLetter h4 {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#newsLetter p {
+    font-size:  20px;
+    font-weight: 700;
+
+}
+
+.social_icons img{
+    width: 35px;
+    height: 35px;
+    margin: 0px 10px
+}
+
+
+
+.social_icons img:hover{
+    margin: 0px 10px;
+    transform: scale(1.2);
+}
+
+
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4D4D4D; /* Green */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FFBF00; /* Darker green on hover */
+    color:#000000;
+}
+
+/*footerSection*/
+
+.footerSection{
+    padding: 20px 60px;
+    background-color: #4D4D4D;
+    display: flex;
+    justify-content: space-between;
+}
+.footerSection h2{
+    color: white;
+}
+
+.footerSection p{
+    color: #D9D9D9;
+}
+
+
+
+/*footerButtom*/
+#footerButtom {
+    padding: 18px 0;
+    background-color: #000000;
+    text-align: center;
+}
+
+#footerButtom p{
+    color: #D9D9D9;
+    font-size: 14px;
+}
+

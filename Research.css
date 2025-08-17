@@ -1,0 +1,45 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2ecec;
+  color: #155596;
+  box-sizing: border-box;
+  margin-left: 0;
+}
+.heading
+{
+ font-family: "Brush Script MT";  
+}
+.comparision
+{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    color: #000000;
+}
+.comparision img
+{
+    max-width: 100%;
+    height: auto;
+}
+.Our
+{
+    display: flex;
+    flex-direction: column;
+}
+.Ref
+{
+    display: flex;
+    flex-direction: column;
+}
+.heading span {
+  color: #000000;
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  font-family: "Brush Script MT";
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+  font-size: 150%;
+}
